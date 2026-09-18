@@ -1,0 +1,55 @@
+{
+  "version": 1,
+  "presets": [
+    {
+      "id": "classic",
+      "name": "Кряква, пруд",
+      "file": "quacks/classic.wav",
+      "durationMs": 900,
+      "isDefault": true,
+      "license": "CC BY-SA 4.0",
+      "credit": "Пекинская утка и кряква (запись WaderClub)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pekin_duck_%26_mallard.ogg"
+    },
+    {
+      "id": "duck_home",
+      "name": "Домашняя утка",
+      "file": "quacks/duck_home.wav",
+      "durationMs": 900,
+      "isDefault": false,
+      "license": "CC BY-SA 4.0",
+      "credit": "Домашняя утка (запись Ganesh Mohan T)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Domestic_duck_sound_01.wav"
+    },
+    {
+      "id": "pond_1",
+      "name": "Утка, Mudchute 1",
+      "file": "quacks/pond_1.wav",
+      "durationMs": 859,
+      "isDefault": false,
+      "license": "CC BY-SA 3.0",
+      "credit": "Утки, Mudchute City Farm (запись Secretlondon)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mudchute_duck_1.ogg"
+    },
+    {
+      "id": "pond_2",
+      "name": "Утка, Mudchute 2",
+      "file": "quacks/pond_2.wav",
+      "durationMs": 900,
+      "isDefault": false,
+      "license": "CC BY-SA 3.0",
+      "credit": "Утки, Mudchute City Farm (запись Secretlondon)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mudchute_duck_2.ogg"
+    },
+    {
+      "id": "squeak",
+      "name": "Резиновая уточка",
+      "file": "quacks/squeak.wav",
+      "durationMs": 900,
+      "isDefault": false,
+      "license": "CC BY-SA 4.0",
+      "credit": "Писк резиновой утки (запись Dragonhawk12)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rubber_Duck_Squeaker.ogg"
+    }
+  ]
+}

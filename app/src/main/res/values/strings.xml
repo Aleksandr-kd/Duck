@@ -1,0 +1,117 @@
+<resources>
+    <string name="app_name">Утка Debug</string>
+
+    <!-- Онбординг -->
+    <string name="onboarding_title">Утка Debug</string>
+    <string name="onboarding_subtitle">Объясни утке свою проблему.\nНажми на неё!</string>
+    <string name="onboarding_action">Понятно</string>
+
+    <!-- Главный экран -->
+    <string name="main_counter_today">Сегодня ты объяснил утке: %1$d проблем</string>
+    <string name="duck_content_description">Утка. Нажмите, чтобы услышать кряк</string>
+    <string name="duck_click_action">Крякнуть</string>
+
+    <!-- Навигация -->
+    <string name="nav_settings">Настройки</string>
+    <string name="nav_back">Назад</string>
+
+    <!-- Настройки -->
+    <string name="settings_title">Настройки</string>
+    <string name="settings_section_appearance">Внешний вид</string>
+    <string name="settings_section_sound">Звук</string>
+    <string name="settings_section_other">Другое</string>
+    <string name="settings_quacks">Выбор кряка</string>
+    <string name="settings_quacks_active">Активный: %1$s</string>
+    <string name="settings_theme">Тема</string>
+    <string name="settings_theme_system">Системная</string>
+    <string name="settings_theme_light">Светлая</string>
+    <string name="settings_theme_dark">Тёмная</string>
+    <string name="settings_duck_color">Цвет утки</string>
+    <string name="settings_duck_color_current">Текущий: %1$s</string>
+    <string name="settings_widget_background">Фон виджета</string>
+    <string name="settings_widget_background_current">Текущий: %1$s</string>
+    <string name="settings_about">О приложении</string>
+
+    <!-- Кряки -->
+    <string name="quacks_title">Кряки</string>
+    <string name="quacks_mode_header">Режим кряка</string>
+    <string name="quacks_mode_single">Один кряк</string>
+    <string name="quacks_mode_random">Случайный</string>
+    <string name="quacks_active_header">Активный кряк</string>
+    <string name="quacks_empty_title">Кряков нет</string>
+    <string name="quacks_empty_subtitle">Переустановите приложение</string>
+    <string name="quacks_empty_action_disabled">Звуки не загружены</string>
+    <string name="quacks_error_dialog_title">Нет доступных звуков. Переустановите приложение.</string>
+    <string name="quacks_error_dialog_ok">ОК</string>
+    <string name="quacks_category_preset">пресет</string>
+    <string name="quacks_label_duration">%1$.1f с · %2$s</string>
+    <string name="quacks_preview_play">Прослушать %1$s</string>
+    <string name="quacks_selected_badge">default</string>
+    <string name="quacks_custom_title">Свой кряк</string>
+
+    <!-- Цвет -->
+    <string name="color_title">Цвет утки</string>
+    <string name="color_title_background">Фон виджета</string>
+    <string name="color_apply">Применить</string>
+    <string name="color_saved_snackbar">Цвет сохранён</string>
+    <string name="color_add_custom">Свой цвет</string>
+    <string name="color_picker_title">Свой цвет утки</string>
+    <string name="color_picker_saturation">Насыщенность</string>
+    <string name="color_picker_lightness">Оттенок</string>
+    <string name="color_wheel_hint">Коснись области цвета</string>
+    <string name="color_picker_cancel">Отмена</string>
+    <string name="color_picker_apply">Применить</string>
+    <string name="color_name_red">Красный</string>
+    <string name="color_name_orange">Оранжевый</string>
+    <string name="color_name_yellow">Жёлтый</string>
+    <string name="color_name_green">Зелёный</string>
+    <string name="color_name_cyan">Голубой</string>
+    <string name="color_name_blue">Синий</string>
+    <string name="color_name_violet">Фиолетовый</string>
+    <string name="color_name_custom">Свой</string>
+
+    <!-- О приложении -->
+    <string name="about_title">О приложении</string>
+    <string name="about_app_name">Утка Debug</string>
+    <string name="about_version">Версия %1$s</string>
+    <string name="about_description">Интерактивная утка для rubber duck debugging: объясни проблему утке вслух — и сам услышишь решение.</string>
+    <string name="about_sounds_header">Звуки</string>
+    <string name="about_sounds_preset">%1$s · %2$s · %3$s</string>
+    <string name="about_credits_header">Атрибуция</string>
+    <string name="about_source">Источник</string>
+    <string name="about_license">Лицензия: %1$s</string>
+    <string name="about_contact">Для предложений пишите als.d@mail.ru</string>
+
+    <!-- Ошибки -->
+    <string name="error_E_AUDIO_001">Проверь настройки звука</string>
+    <string name="error_E_AUDIO_002">Нет доступных звуков. Переустановите приложение.</string>
+    <string name="error_E_AUDIO_003">Звук не загружен. Попробуйте ещё раз.</string>
+    <string name="error_E_AUDIO_004">Запись не найдена</string>
+    <string name="error_E_ANIM_001">Не удалось отобразить анимацию</string>
+    <string name="error_E_CATALOG_001">Кряк не найден</string>
+    <string name="error_E_CATALOG_002">Кряков нет</string>
+    <string name="error_E_CATALOG_003">Каталог повреждён</string>
+    <string name="error_E_REC_001">Не удалось записать звук</string>
+    <string name="error_E_REC_002">Микрофон занят. Попробуйте позже</string>
+    <string name="error_E_REC_003">Запись слишком короткая (менее 0.4 сек)</string>
+    <string name="error_E_REC_004">Достигнут лимит 5 секунд</string>
+    <string name="error_E_STORAGE_001">Недостаточно свободного места</string>
+    <string name="error_E_PERM_001">Нужен доступ к микрофону</string>
+    <string name="error_E_COLOR_001">Цвет не найден</string>
+    <string name="error_E_COLOR_002">Недопустимый формат цвета</string>
+    <string name="error_E_COLOR_003">Не удалось перекрасить утку</string>
+    <string name="error_E_WIDGET_001">Виджет не обновился</string>
+    <string name="error_E_WIDGET_002">Приложение удалено</string>
+    <string name="error_E_WIDGET_003">Действие виджета недоступно</string>
+    <string name="error_E_DATASTORE_001">Не удалось сохранить настройки</string>
+    <string name="error_E_RECORD_PLAYBACK_001">Не удалось воспроизвести запись</string>
+    <string name="error_confirm_retry">Повторить</string>
+    <string name="error_confirm_cancel">Отмена</string>
+    <string name="error_confirm_ok">ОК</string>
+
+    <!-- Виджет -->
+    <string name="widget_description">Утка Debug: крякни утке</string>
+    <string name="widget_hint">Жми — покрякаю</string>
+    <string name="widget_app_deleted">Приложение удалено</string>
+    <string name="widget_open_app">Открыть приложение</string>
+</resources>

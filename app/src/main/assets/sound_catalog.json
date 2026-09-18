@@ -1,0 +1,98 @@
+{
+  "version": 1,
+  "presets": [
+    {
+      "id": "short-low",
+      "name": "Низкий кряк",
+      "file": "quacks/short-low-quacking-sound.wav",
+      "durationMs": 313,
+      "isDefault": true,
+      "license": "Локальный файл",
+      "credit": "Пользователь"
+    },
+    {
+      "id": "pond-1",
+      "name": "Утка, пруд 1",
+      "file": "quacks/pond_1.wav",
+      "durationMs": 859,
+      "isDefault": false,
+      "license": "CC BY-SA 3.0",
+      "credit": "Утки, Mudchute City Farm (запись Secretlondon)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mudchute_duck_1.ogg"
+    },
+    {
+      "id": "pond-2",
+      "name": "Утка, пруд 2",
+      "file": "quacks/pond_2.wav",
+      "durationMs": 900,
+      "isDefault": false,
+      "license": "CC BY-SA 3.0",
+      "credit": "Утки, Mudchute City Farm (запись Secretlondon)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mudchute_duck_2.ogg"
+    },
+    {
+      "id": "squeak",
+      "name": "Резиновая уточка",
+      "file": "quacks/squeak.wav",
+      "durationMs": 900,
+      "isDefault": false,
+      "license": "CC BY-SA 4.0",
+      "credit": "Писк резиновой утки (запись Dragonhawk12)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rubber_Duck_Squeaker.ogg"
+    },
+    {
+      "id": "rubber-toy",
+      "name": "Резиновая игрушка",
+      "file": "quacks/the-quacking-of-a-child39s-rubber-toy.wav",
+      "durationMs": 503,
+      "isDefault": false,
+      "license": "Локальный файл",
+      "credit": "Пользователь"
+    },
+    {
+      "id": "cartoon",
+      "name": "Мультяшный кряк",
+      "file": "quacks/cartoon-quacking.wav",
+      "durationMs": 213,
+      "isDefault": false,
+      "license": "Локальный файл",
+      "credit": "Пользователь"
+    },
+    {
+      "id": "bird-duck",
+      "name": "Птичий кряк",
+      "file": "quacks/animal_bird_duck_quack_002.mp3",
+      "durationMs": 299,
+      "isDefault": false,
+      "license": "Локальный файл",
+      "credit": "Пользователь"
+    },
+    {
+      "id": "duck-apple",
+      "name": "Кряк-алерт",
+      "file": "quacks/duck-called-apple-phone-comes-with-sound-game-sound-alert.wav",
+      "durationMs": 3906,
+      "isDefault": false,
+      "license": "Локальный файл",
+      "credit": "Пользователь"
+    },
+    {
+      "id": "nasha-utka",
+      "name": "Наша утка",
+      "file": "quacks/nu_teper_vsay_utka_nasha.wav",
+      "durationMs": 2325,
+      "isDefault": false,
+      "license": "Локальный файл",
+      "credit": "Пользователь"
+    },
+    {
+      "id": "zvuki-utka",
+      "name": "Звуки утки",
+      "file": "quacks/zvuki-zhivotnyh-utka.mp3",
+      "durationMs": 12659,
+      "isDefault": false,
+      "license": "Локальный файл",
+      "credit": "Пользователь"
+    }
+  ]
+}
