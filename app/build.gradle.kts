@@ -17,6 +17,11 @@ val myTrackerSdkKey: String = localProperties.getProperty("MYTRACKER_SDK_KEY")
     ?: System.getenv("MYTRACKER_SDK_KEY")
     ?: ""
 
+val releaseStoreFile: String = localProperties.getProperty("RELEASE_STORE_FILE") ?: ""
+val releaseStorePassword: String = localProperties.getProperty("RELEASE_STORE_PASSWORD") ?: ""
+val releaseKeyAlias: String = localProperties.getProperty("RELEASE_KEY_ALIAS") ?: ""
+val releaseKeyPassword: String = localProperties.getProperty("RELEASE_KEY_PASSWORD") ?: ""
+
 android {
     namespace = "com.duck.app"
     compileSdk = 35
@@ -35,6 +40,17 @@ android {
         }
     }
 
+    signingConfigs {
+        if (releaseStoreFile.isNotBlank()) {
+            create("release") {
+                storeFile = rootProject.file(releaseStoreFile)
+                storePassword = releaseStorePassword
+                keyAlias = releaseKeyAlias
+                keyPassword = releaseKeyPassword
+            }
+        }
+    }
+
     buildTypes {
         debug {
             isMinifyEnabled = false
@@ -46,6 +62,9 @@ android {
                 getDefaultProguardFile("proguard-android-optimize.txt"),
                 "proguard-rules.pro"
             )
+            if (releaseStoreFile.isNotBlank()) {
+                signingConfig = signingConfigs.getByName("release")
+            }
         }
     }
     compileOptions {
