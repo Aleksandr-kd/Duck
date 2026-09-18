@@ -64,7 +64,7 @@
 ## Фаза 6. Публикация в RuStore
 
 - [x] 6.0 Тихое обновление через RuStore In-app updates SDK (US-11): подключён `ru.rustore.sdk:appupdate:10.5.1`, при старте MainActivity фоново проверяется `getAppUpdateInfo()` → при `UPDATE_AVAILABLE` запускается тихий flow (`AppUpdateType.SILENT`) без UI RuStore; при `DOWNLOADED` / уже скачанном состоянии вызывается `completeUpdate(SILENT)`; ошибки тихо логируются (18.09.2026)
-- [ ] 6.1 Сборка релиза, minify/R8, play-совместимый AAB/APK
+- [x] 6.1 Сборка релиза, minify/R8, APK: `assembleRelease` собирается с R8/ProGuard и подписью release-ключом (`duck-release.jks`, alias `duck`, параметры в `local.properties`); подписанный APK: `dist/Duck-1.0.0-release.apk` — package `com.duck.app`, versionCode 1, versionName 1.0.0, targetSdk 35 (18.09.2026)
 - [ ] 6.2 Иконки, скриншоты(×мин. 2), описание, категория, политика приватности (учесть аналитику MyTracker: SDK собирает обезличенную статистику запусков/событий, AD_ID не используется)
 - [ ] 6.3 Проверка требований RuStore: targetSdk, privacy policy URL, APK подпись
 - [ ] 6.4 Загрузка в консоль, модерация, релиз
